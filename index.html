@@ -11,61 +11,62 @@
             crossorigin="anonymous"/>
             <link rel="stylesheet" href="/css/style.css">
 
-    </head>
-    <body>
-        <main class="d-flex justify-content-center align-items-center">
-            <div class="container mt-4 fotos-ropa">
-                <h2 class="mb-4 d-flex justify-content-center">E-commerce ropa</h2>
-                <aside class="col-md-3"> <!-- Columna para el aside -->
-                    <ul>
-                        <li class="text-uppercase">sobre nosotros</li>
-                        <li class="text-uppercase">buzos</li>
-                        <li class="text-uppercase">remeras</li>
-                        <li class="text-uppercase">pantalones</li>
-                    </ul>
-                </aside>
-                <div class="col-md-9"> <!-- Columna para las fotos de ropa -->
-                    <div class="d-flex flex-column align-items-center">
-                        <img src="" alt="foto-ropa1">
-                        <button>comprar</button>
-                    </div>
-                    <div class="d-flex flex-column align-items-center">
-                        <img src="" alt="foto-ropa2">
-                        <button>comprar</button>
-                    </div>
-                    <div class="d-flex flex-column align-items-center">
-                        <img src="" alt="foto-ropa3">
-                        <button>comprar</button>
-                    </div>
-                    <div class="d-flex flex-column align-items-center">
-                        <img src="" alt="foto-ropa4">
-                        <button>comprar</button>
+        </head>
+        <body>
+            <main class="d-flex justify-content-center align-items-center seccion-ropa">
+                <div class="container mt-4 fotos-ropa">
+                    <h2 class="mb-4 text-center">E-commerce ropa</h2>
+                    <div class="row">
+                        <aside class="col-md-3"> <!-- Columna para el aside -->
+                            <ul class="list-unstyled lista-seccion">
+                                <li class="text-uppercase mb-4">sobre nosotros</li>
+                                <li class="text-uppercase mb-4">buzos</li>
+                                <li class="text-uppercase mb-4">remeras</li>
+                                <li class="text-uppercase mb-4">pantalones</li>
+                            </ul>
+                        </aside>
+                        <div class="col-md-9 "> <!-- Columna para los productos -->
+                            <div class="row">
+                                <div class="col-md-4 cartas-ropa">
+                                    <div class="card mb-4" style="width: 18rem;">
+                                        <img src="./assets/images/foto-buzo2.jpg" class="card-img-top" alt="Imagen del Producto">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Nombre del Producto</h5>
+                                            <p class="card-text">Mini descripción del producto.</p>
+                                            <a href="#" class="btn btn-primary" id="mi-boton">Comprar</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 cartas-ropa">
+                                    <div class="card mb-4" style="width: 23rem;">
+                                        <img src="./assets/images/foto-remera2.jpg" class="card-img-top" alt="Imagen del Producto">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Nombre del Producto</h5>
+                                            <p class="card-text">Mini descripción del producto.</p>
+                                            <a href="#" class="btn btn-primary" id="mi-boton">Comprar</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 cartas-ropa ">
+                                    <div class="card mb-4 " style="width: 23rem;">
+                                        <img src="./assets/images/foto-buzo2.jpg" class="card-img-top" alt="Imagen del Producto">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Nombre del Producto</h5>
+                                            <p class="card-text">Mini descripción del producto.</p>
+                                            <a href="#" class="btn btn-primary" id="mi-boton">Comprar</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="errormensaje"></div>
-        </main>
-        <hr>
-        <footer>
-            <ul class="d-flex justify-content-center">
-                <li class="mx-2">instagram</li>
-                <li class="mx-2">facebook</li>
-                <li class="mx-2">gmail</li>
-            </ul>
-        </footer>
-<section id="contenido">
-        <p class="parrafo">soy tomas</p>
-        <p class="parrafo"> soy manuel</p>
-        <p class="parrafo"> soy bereciartua </p>
-        <p class="parrafo"> soy gonzalez</p>
-    </section>
-        
-        
-    </body>
-    <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-            crossorigin="anonymous" ></script>
+            </main>            
+        </body>
+        <script
+                src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+                crossorigin="anonymous" ></script>
 
-        <script src="js/main.js"></script>
-    </html>
+            <script src="js/main.js"></script>
+        </html>

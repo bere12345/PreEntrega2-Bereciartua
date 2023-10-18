@@ -1,4 +1,4 @@
-function calcularinteres (cantidadDeCuotas , tasaDeInteres){
+/* function calcularinteres (cantidadDeCuotas , tasaDeInteres){
     let interes1 = 0
     for ( let i = 0 ; i< cantidadDeCuotas; i++){
         interes1 += (interes1 * 1) * tasaDeInteres 
@@ -108,4 +108,14 @@ console.log(buscarProducto("buzos"));
 console.log(buscarProducto("pantalones"));// Buscar información sobre las remeras
 console.log(filtrarProductosPorPrecio(10000)); // Filtrar productos con precio menor o igual a 10000
 
-comprarProducto();
+comprarProducto(); */
+
+
+let usuario1 = "tomas"
+let usuario2 = null
+
+if (usuario1){
+    console.log(usuario1);
+}else{
+    console.log("usuario no existente");
+}
