@@ -1,9 +1,71 @@
-.cartas-ropa {
-  margin-top: 120px;
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.lista-seccion {
-  margin-top: 20pxs;
+h1, h2, h3, h4, p, a, input, ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.seccion-izquierda {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  background-color: #a86032;
+}
+
+aside {
+  padding: 2rem;
+  color: white;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+aside li {
+  margin-bottom: 50px;
+}
+
+main {
+  background-color: white;
+  margin: 1rem;
+  margin-left: 1rem;
+  border-radius: 3rem;
+  padding: 3rem;
+}
+main .todos-los-productos {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+main .todos-los-productos .producto-imagen {
+  max-width: 100%;
+  border-radius: 1rem;
+}
+main .todos-los-productos .producto-diseñar {
+  background-color: #a86032;
+  border-radius: 1rem;
+}
+main .todos-los-productos .producto-diseñar h3 {
+  color: black;
+}
+main .todos-los-productos .producto-diseñar p {
+  color: black;
+}
+main .todos-los-productos .producto-diseñar button {
+  border-radius: 0.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */
