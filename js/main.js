@@ -111,11 +111,3 @@ console.log(filtrarProductosPorPrecio(10000)); // Filtrar productos con precio m
 comprarProducto(); */
 
 
-let usuario1 = "tomas"
-let usuario2 = null
-
-if (usuario1){
-    console.log(usuario1);
-}else{
-    console.log("usuario no existente");
-}
